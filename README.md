@@ -22,7 +22,7 @@ The original code was refactored by creating a ticker index to run instead of ru
 
 After refactoring the code, an improvement on the time was noted.  The new run time for 2017 and 2018 is 0.078125 seconds and 0.0859375 seconds, respectively.
 
-![2017_Refactored](https://github.com/nkinsler/VBA_Challenge/blob/main/Resources/2017%20Time%20-%20Original%20Code.png)!
+![2017_Refactored](https://github.com/nkinsler/VBA_Challenge/blob/main/Resources/VBA_Challenge_2017.png)!
 
 ![2018_Refactored](https://github.com/nkinsler/VBA_Challenge/blob/main/Resources/VBA_Challenge_2018.png)!
 
@@ -31,6 +31,7 @@ After refactoring the code, an improvement on the time was noted.  The new run t
 ## Advantages and disadvantages of refactoring code
 
 The primary advantage of refactoring code is to simplify the code.  A simplified code is easier review and make changes to.  In addition, a refactored code should lead to improved faster run time.  This is important when running the macro through larger data file.
+
 The primary disadvantage of refactoring code is the process is time consuming.  The process requires a time commitment that the user may not be able to fulfill.
 
 ## How do these pros and cons apply to refactoring the original VBA script?
