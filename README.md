@@ -1,14 +1,14 @@
-#VBA Stock Analysis
+# VBA Stock Analysis
 
-##Overview of Project
+## Overview of Project
 
-###Purpose
+### Purpose
 
 The purpose of this project is to take the code prepared during module 2 and refactor it to loop through all the data one time.  Upon refactoring, I’m to determine whether refactoring the code successfully made the VBA script run faster.
 
 [VBA_Challenge](https://github.com/nkinsler/VBA_Challenge/blob/main/VBA_Challenge.xlsm)
 
-#Results
+# Results
 
 The Stock Analysis originally prepared was refactored.  The original time run for the 2017 and 2018 was 0.46875.
 
@@ -26,8 +26,15 @@ After refactoring the code, an improvement on the time was noted.  The new run t
 
 ![2018_Refactored](https://github.com/nkinsler/VBA_Challenge/blob/main/Resources/VBA_Challenge_2018.png)!
 
-#Summary
+# Summary
 
-##Advantages and disadvantages of refactoring code
+## Advantages and disadvantages of refactoring code
 
 The primary advantage of refactoring code is to simplify the code.  A simplified code is easier review and make changes to.  In addition, a refactored code should lead to improved faster run time.  This is important when running the macro through larger data file.
+The primary disadvantage of refactoring code is the process is time consuming.  The process requires a time commitment that the user may not be able to fulfill.
+
+## How do these pros and cons apply to refactoring the original VBA script?
+
+The advantage to the refactoring the stock analysis code was the improved run time.  The improved run time was due to the simplified code and use of tickerIndex.  The disadvantage being the time commitment required to refactor the original code.
+
+The advantage to the original code was the ability to fully follow through the code.  The original code followed the lessons learned in the VBA module.  The disadvantage to the original code was the length of the code allowing for more room for errors.
